@@ -9,5 +9,6 @@ class TestCardGame(unittest.TestCase):
         self.card3 = Card("Hearts", 1)
 
 
-    def test_check_for_ace(self)
-    pass
+    def test_check_for_ace(self):
+        self.assertEqual(True, self.card3.value)
+   
